@@ -1,0 +1,10 @@
+.thumbnail {
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+}
+
+.label {
+    font-family: Helvetica;
+    font-size: 1em;
+}

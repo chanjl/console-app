@@ -1,0 +1,6 @@
+<div *ngFor="let i of inventory; let ind = index;">
+  <img src="assets/fruits/{{i.source}}" class="thumbnail">
+  <!-- <img [src]="{{i.image}}> -->
+  <span class="label">{{i.label}}</span> ({{i.quantity}})
+  <button [disabled]="i.quantity<=0" (click)="itemSelected(ind)">+</button>
+</div>
